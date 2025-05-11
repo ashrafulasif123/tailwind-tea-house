@@ -18,16 +18,114 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
-                    }
+                        goldenlight: 'rgba(230, 166, 35, 0.1)',
+                        lightgreen: 'rgba(87, 118, 57, 0.1)',
+                        lightgray: 'rgba(255, 255, 255, 0.5)',
+                    },
+                    border: {
+
+                    },
+
                 }
             }
         }
     </script>
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
-    <h1 class="text-">Md Ashraful Hossain</h1>
+<body class="font-manrope">
+    <main class="max-w-screen-xl mx-auto">
+        <section class="flex gap-5 py-20">
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 grid-rows-4 gap-[30px]">
+                <div class="md:row-span-1 bg-gradient-to-r from-[#FF0000] to-[#FF8938]">
+
+                </div>
+                <div class="md:row-span-2 flex justify-center items-center bg-goldenlight">
+                    <img class="" src="./images/fresh-1.png" alt="">
+                </div>
+                <div class="md:row-span-2 flex justify-center items-center bg-lightgreen">
+                    <img class="" src="./images/fresh-2.png" alt="">
+                </div>
+                <div class="md:row-span-1 bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF]">
+
+                </div>
+            </div>
+            <div class="flex-1">
+                <h1 class="text-[48px] font-extrabold leading-tight">Great Tea, Freshly <br> Presented</h1>
+                <p class="font-medium text-[#777777] mt-[20px] mb-[30px]">The meaning of gong cha is chanese is to
+                    provide the best tea to emperor from all possessions . It represents the highest quality and self
+                    expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers because of
+                    good words of mouth and unique customized service orginated from Taiwan.</p>
+                <h3 class="text-[20px] font-extrabold mt-[30px] mb-[10px]">Unique Taste</h3>
+                <p class="font-medium text-[#777777]">The meaning of gong cha is chanese is to provide the best tea to
+                    emperor from all possessions . It represents the highest quality and self expectation. Establishing
+                    in 2006, Gong cha had been deeply appreciated by its custoers because of good words of mouth and
+                    unique customized service orginated from Taiwan.</p>
+                <h3 class="text-[20px] font-extrabold mt-[30px] mb-[10px]">Premium Quality</h3>
+                <p class="font-medium text-[#777777]">Premium Quality that makes tea more elegant and more durable when
+                    you use it.</p>
+
+            </div>
+        </section>
+        <!-- This is my SYSTEM START -->
+        <section class=" lg:min-h-screen bg-gradient-to-r from-[#FF8938] to-[#FF0000] grid lg:grid-cols-2 gap-8 p-7">
+            <div class="flex flex-col justify-center items-center">
+                <h1 class="text-[45px] font-extrabold text-[#F4F4F4]">Meet Our Super Clients</h1>
+                <p class="font-medium text-[#F4F4F4] mt-[20px] mb-[30px]">We are providing the best and suitable home
+                    insurance services for the people who are interested to treatment </p>
+                <button class="bg-white py-[14px] px-[28px] rounded-[8px] w-fit">
+                    <p
+                        class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent text-[20px] font-bold">
+                        Show All</p>
+                </button>
+            </div>
+            <div class="sm:h-[600px] lg:h-auto sm:flex sm:justify-start sm:items-center md:h-[400px]">
+                <div class="flex flex-col justify-between items-center relative h-full sm:h-auto md:flex-row md:gap-8">
+                    <!-- Box-- -->
+                    <div
+                        class="relative w-2/3 order-2 bg-white p-[40px] rounded-[8px] my-10 z-10 sm:order-1 sm:w-full sm:max-w-[350px] sm:my-auto md:my-auto md:w-[33%] lg:w-full lg:max-w-[310px] xl:max-w-[400px]">
+                        <p class="text-[#777777]">We are providing the best and suitable home
+                            insurance services for the people who are interested to treatment</p>
+                        <p class="font-bold text-[#1C1C1C] mt-[20px]">Ilham Yuda</p>
+                        <p class="text-[#5D5A6F]">Businessman</p>
+                        <div class="absolute -top-5 -left-5">
+                            <img class="border-4 rounded-full border-white" src="./images/client.png" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="order-1 sm:order-2 w-2/3 sm:absolute sm:-top-2/3 sm:left-40 sm:w-full sm:max-w-[350px] md:static md:w-[33%] lg:absolute lg:w-full lg:max-w-[310px] xl:max-w-[400px]">
+                        <div class="p-[40px] rounded-[8px] relative bg-lightgray">
+                            <p class="text-[#777777]">We are providing the best and suitable home
+                                insurance services for the people who are interested to treatment</p>
+                            <p class="font-bold text-[#1C1C1C] mt-[20px]">Ilham Yuda</p>
+                            <p class="text-[#5D5A6F]">Businessman</p>
+                            <div class="absolute -top-5 -left-5">
+                                <img class="border-4 rounded-full border-white" src="./images/client.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="order-3 sm:order-3 w-2/3 sm:absolute sm:top-2/3 sm:left-40 sm:w-full sm:max-w-[350px] md:static md:w-[33%] lg:absolute lg:w-full lg:max-w-[310px] xl:max-w-[400px]">
+                        <div class="p-[40px] rounded-[8px] relative bg-lightgray">
+                            <p class="text-[#777777]">We are providing the best and suitable home
+                                insurance services for the people who are interested to treatment</p>
+                            <p class="font-bold text-[#1C1C1C] mt-[20px]">Ilham Yuda</p>
+                            <p class="text-[#5D5A6F]">Businessman</p>
+                            <div class="absolute -top-5 -left-5">
+                                <img class="border-4 rounded-full border-white" src="./images/client.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box end -->
+                </div>
+            </div>
+        </section>
+        <!-- This is my SYSTEM END -->
+    </main>
 </body>
 
 </html>
